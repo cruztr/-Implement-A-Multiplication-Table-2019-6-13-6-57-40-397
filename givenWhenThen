@@ -1,0 +1,50 @@
+GIVEN 	2,4
+WHEN 	isStartNumSmallerThanEndNum(2,4)
+THEN 	should return true
+
+GIVEN 	25,7
+WHEN 	isStartNumSmallerThanEndNum(25,7)
+THEN 	should return false
+
+
+
+GIVEN	input: 25,7
+WHEN	isInRange(25,7)
+THEN 	should return true
+
+GIVEN	input: 1001,7
+WHEN	isInRange(1001,7)
+THEN 	should return true
+
+GIVEN	input: 420,0
+WHEN	isInRange(420,0)
+THEN 	should return false
+
+
+
+
+GIVEN 	input: 2,4
+WHEN 	formatMultiplyTable(2,4)
+THEN 	should return multiplyTable in specified correct format
+
+GIVEN 	input: 1,4
+WHEN 	formatMultiplyTable(1,4)
+THEN 	should return multiplyTable in specified correct format
+
+
+
+GIVEN 	input: 150,10
+WHEN 	generateMultiplyTable(150,10)
+THEN 	should return null
+
+GIVEN 	input: 1001,10
+WHEN 	generateMultiplyTable(1001,10)
+THEN 	should return null
+
+GIVEN 	input: 0,101
+WHEN 	generateMultiplyTable(0,101)
+THEN 	should return null
+
+GIVEN 	input: 1,4
+WHEN 	generateMultiplyTable(1,4)
+THEN 	should return generateTable in correct format and have checking for input

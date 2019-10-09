@@ -86,8 +86,8 @@ it ('should return null when input not in range', () => {
 });
 
 it ('should return null when input not in range', () => {
-	const startNum = 101;
-	const endNum = 0;
+	const startNum = 0;
+	const endNum = 101;
 
     expect(generateMultiplyTable(startNum, endNum)).toBe(null);
 });
